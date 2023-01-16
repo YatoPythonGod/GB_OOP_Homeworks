@@ -2,19 +2,20 @@ package Task_1;
 
 import java.util.Date;
 
-public class Bread extends Food{
+public class Bread extends Food {
 
     private String typeFlour;
+
     public Bread(String name, double price, int count, String unit, Date storageLife, String typeFlour) {
         super(name, price, count, unit, storageLife);
         this.typeFlour = typeFlour;
     }
 
-    public String getTypeFlour(){
+    public String getTypeFlour() {
         return this.typeFlour;
     }
 
-    public void setTypeFlour(String typeFlour){
+    public void setTypeFlour(String typeFlour) {
         this.typeFlour = typeFlour;
     }
 

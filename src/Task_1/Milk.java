@@ -12,19 +12,19 @@ public class Milk extends Drink {
         this.storageLife = storageLife;
     }
 
-    public double getFatContent(){
+    public double getFatContent() {
         return fatContent;
     }
 
-    public String getStorageLife(){
+    public String getStorageLife() {
         return String.format("%1$td %1$tB %1$tY", this.storageLife);
     }
 
-    public void setFatContent(double  fatContent){
+    public void setFatContent(double fatContent) {
         this.fatContent = fatContent;
     }
 
-    public void setStorageLife(Date storageLife){
+    public void setStorageLife(Date storageLife) {
         this.storageLife = storageLife;
     }
 

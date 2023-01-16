@@ -1,6 +1,6 @@
 package Task_1;
 
-public class Diapers extends Baby{
+public class Diapers extends Baby {
 
     private int size;
 
@@ -18,38 +18,40 @@ public class Diapers extends Baby{
         this.type = type;
     }
 
-    public int getSize(){
+    public int getSize() {
         return this.size;
     }
 
-    public int getMinWeight(){
+    public int getMinWeight() {
         return this.minWeight;
     }
 
-    public int getMaxWeight(){
+    public int getMaxWeight() {
         return this.maxWeight;
     }
 
-    public String getType(){
+    public String getType() {
         return this.type;
     }
 
-    public void setSize(int size){
+    public void setSize(int size) {
         this.size = size;
     }
-    public void setMinWeight(int minWeight){
+
+    public void setMinWeight(int minWeight) {
         this.minWeight = minWeight;
     }
-    public void setMaxWeight(int maxWeight){
+
+    public void setMaxWeight(int maxWeight) {
         this.maxWeight = maxWeight;
     }
 
-    public void setType(String type){
+    public void setType(String type) {
         this.type = type;
     }
 
     @Override
-    public String toString(){
-        return String.format("%sType: %s\nSize: %s\nWeiht: %s - %s kg\n", super.toString(),this.type, this.size, this.minWeight, this.maxWeight);
+    public String toString() {
+        return String.format("%sType: %s\nSize: %s\nWeiht: %s - %s kg\n", super.toString(), this.type, this.size, this.minWeight, this.maxWeight);
     }
 }

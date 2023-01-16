@@ -1,18 +1,18 @@
 package Task_1;
 
-public class Drink extends Product{
+public class Drink extends Product {
     double volume;
 
-    protected Drink(String name, double price, int count, String unit, double  volume) {
+    protected Drink(String name, double price, int count, String unit, double volume) {
         super(name, price, count, unit);
         this.volume = volume;
     }
 
-    public double  getVolume(){
+    public double getVolume() {
         return this.volume;
     }
 
-    public void setVolume(int volume){
+    public void setVolume(int volume) {
         this.volume = volume;
     }
 

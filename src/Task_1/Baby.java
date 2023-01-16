@@ -1,28 +1,29 @@
 package Task_1;
 
-public class Baby extends Product{
+public class Baby extends Product {
 
     int minimumAge;
     boolean hypoallergenic;
 
-    protected Baby(String name, double price, int count, String unit, int minimumAge,boolean hypoallergenic) {
+    protected Baby(String name, double price, int count, String unit, int minimumAge, boolean hypoallergenic) {
         super(name, price, count, unit);
         this.minimumAge = minimumAge;
         this.hypoallergenic = hypoallergenic;
     }
 
-    public int getMinimumAge(){
+    public int getMinimumAge() {
         return this.minimumAge;
     }
-    public boolean getHypoallergenic(){
+
+    public boolean getHypoallergenic() {
         return this.hypoallergenic;
     }
 
-    public void setMinimumAge(int minimumAge){
+    public void setMinimumAge(int minimumAge) {
         this.minimumAge = minimumAge;
     }
 
-    public void setHypoallergenic(boolean hypoallergenic){
+    public void setHypoallergenic(boolean hypoallergenic) {
         this.hypoallergenic = hypoallergenic;
     }
 

@@ -1,6 +1,6 @@
 package Task_1;
 
-public class Hygiene extends Product{
+public class Hygiene extends Product {
     int piecesPerPack;
 
     protected Hygiene(String name, double price, int count, String unit, int piecesPerPack) {
@@ -8,11 +8,11 @@ public class Hygiene extends Product{
         this.piecesPerPack = piecesPerPack;
     }
 
-    public int getPiecesPerPack(){
+    public int getPiecesPerPack() {
         return this.piecesPerPack;
     }
 
-    public void setPiecesPerPack(int piecesPerPack){
+    public void setPiecesPerPack(int piecesPerPack) {
         this.piecesPerPack = piecesPerPack;
     }
 
